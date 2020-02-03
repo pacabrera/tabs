@@ -1,0 +1,64 @@
+/* Tabs panel */
+.tabbable-panel {
+    border:1px solid #eee;
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  .tabbable-line.tabs-below > .nav-tabs > li {
+    border-radius: 0;
+  }
+  .tabbable-line.tabs-below > .nav-tabs > li > a {
+    margin-top: 0;
+  }
+  .tabbable-line.tabs-below > .nav-tabs > li.active {
+    /* margin-bottom: -2px;
+    border-bottom: 0;
+    border-top: 4px solid #f3565d; */
+    position: relative;
+  }
+
+  .tabbable-line.tabs-below > .nav-tabs > li.active:after {
+    border-bottom: 10px solid #e7e7e7;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    content: "";
+    height: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: -10px;
+    width: 0;
+  }
+
+
+  .tabbable-line.tabs-below > .tab-content {
+    margin-top: -10px;
+    border-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+    height: 90vh;
+  }
+
+  #triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid red;
+  }
+
+  .center-block {
+    float: none !important
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+ }
+
+ .content{
+padding: 25vh;
+ }
